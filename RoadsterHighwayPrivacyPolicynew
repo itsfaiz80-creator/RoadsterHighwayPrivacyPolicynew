@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadster Highway Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+  :root {
+    --bg: #faf9f7;
+    --surface: #ffffff;
+    --ink: #131110;
+    --ink-soft: #57504d;
+    --muted: #8a817d;
+    --border: #e7e2dd;
+    --accent: #ff2a30;
+    --accent-ink: #ffffff;
+    --rule: #131110;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0b0d12;
+      --surface: #12151c;
+      --ink: #f2f3f6;
+      --ink-soft: #c9ced8;
+      --muted: #9aa3b2;
+      --border: #2a2f3a;
+      --accent: #ff2a30;
+      --accent-ink: #ffffff;
+      --rule: #ff2a30;
+    
+
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0b0d12;
+    --surface: #12151c;
+    --ink: #f2f3f6;
+    --ink-soft: #c9ced8;
+    --muted: #9aa3b2;
+    --border: #2a2f3a;
+    --accent: #ff2a30;
+    --accent-ink: #ffffff;
+    --rule: #ff2a30;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+  }
+
+  body {
+    color: var(--ink);
+    font-family: 'Hanken Grotesk', system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img { max-width: 100%; }
+
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  header.masthead {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 40px;
+  }
+
+  .glyph {
+    width: 40px;
+    height: 40px;
+    flex: none;
+    border-radius: 10px;
+    background: #131110;
+    display: grid;
+    place-items: center;
+  }
+  .glyph svg { width: 22px; height: 22px; }
+
+  .masthead-text .brand {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .masthead-text .doc-kind {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 44px);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 10px;
+  }
+
+  .updated {
+    font-size: 13px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 36px;
+  }
+
+  .lede {
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0 0 48px;
+  }
+
+  section { margin-bottom: 40px; }
+
+  h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 3px solid var(--rule);
+  }
+
+  p, li {
+    max-width: 62ch;
+    font-size: 16px;
+    color: var(--ink-soft);
+  }
+
+  p { margin: 0 0 14px; }
+
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+
+  a {
+    color: var(--ink);
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  a:hover { color: var(--accent); }
+
+  strong { color: var(--ink); font-weight: 700; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px 26px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 22px 26px;
+    margin-top: 56px;
+  }
+  .contact .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .contact .value {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div class="glyph" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M3 15.5c0-1.2.7-2 1.9-2.3l2.6-.6 2.2-2.4c.5-.5 1.1-.8 1.8-.8h3.7c.8 0 1.5.4 2 1l1.7 2.2 1.4.4c.8.2 1.2.9 1.2 1.7v.8c0 .6-.5 1.1-1.1 1.1H4.1c-.6 0-1.1-.5-1.1-1.1z" fill="#ff2a30"/>
+        <circle cx="7.5" cy="17" r="1.8" fill="#131110" stroke="#ff2a30" stroke-width="1.4"/>
+        <circle cx="16.5" cy="17" r="1.8" fill="#131110" stroke="#ff2a30" stroke-width="1.4"/>
+      </svg>
+    </div>
+    <div class="masthead-text">
+      <div class="brand">Roadster Highway</div>
+      <div class="doc-kind">Legal · Privacy</div>
+    </div>
+  </header>
+
+
+  <h1>Privacy Policy</h1>
+  <div class="updated">Last updated October&nbsp;22, 2026</div>
+
+  <p class="lede">Roadster Highway is an endless highway racing game. This page explains, in plain terms, what data the app touches and the choices you have over it.</p>
+
+  <section>
+    <h2>Who runs this app</h2>
+    <p>Roadster Highway ("the app") is developed and published by <strong>Muhammad Faiz</strong> under the name <strong>GAMEFAI</strong> ("we", "us"). The app does not require an account, a sign-up, or any personal profile to play.</p>
+  </section>
+
+  <section>
+    <h2>What the app collects directly</h2>
+    <p>Nothing personal. Your coins, unlocked Roadster upgrades, best distances and settings (sound, camera) are saved <strong>only on your device</strong>, using Android's standard local app storage. We do not run our own servers and never see this data. Uninstalling the app removes it.</p>
+  </section>
+
+  <section>
+    <h2>Advertising, via Google AdMob</h2>
+    <p>The app is supported by ads served through <strong>Google AdMob</strong> — interstitial and rewarded formats. Rewarded ads are always optional: you choose to watch them to continue a run, get a rocket boost or earn extra coins. To serve and measure these ads, Google and its advertising partners may process:</p>
+    <ul>
+      <li>Your device's advertising identifier</li>
+      <li>Approximate location, derived from IP address</li>
+      <li>Ad interaction data — impressions, clicks, and watch-through</li>
+      <li>Basic device and app information, and diagnostics from the ads SDK</li>
+    </ul>
+    <p>This is handled entirely by Google under its own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and its <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">partner sites disclosure</a>.</p>
+  </section>
+
+  <section>
+    <h2>Your consent choice</h2>
+    <div class="card">
+      <p style="margin-bottom:0">Where required by law — including for players in the EEA, UK, and Switzerland — the app asks for your consent before showing personalized ads, using Google's User Messaging Platform. You can review or change that choice at any time from <strong>Settings → Privacy Settings</strong> on the app's home screen.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Children's privacy</h2>
+    <p>Roadster Highway is not directed at children under 13, and we do not knowingly collect information from them.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <ul>
+      <li>Opt out of personalized ads any time via <strong>Privacy Settings</strong> in the app, or through your device's Google Settings → Ads.</li>
+      <li>Reset your device's advertising identifier from Android Settings whenever you like.</li>
+    </ul>
+  </section>
+
+  <div class="contact">
+    <div>
+      <div class="label">Questions about this policy</div>
+      <div class="value">itsfaiz80@gmail.com</div>
+    </div>
+    <div>
+      <div class="label">App</div>
+      <div class="value">Roadster Highway</div>
+    </div>
+  </div>
+
+  <footer>© 2026 Muhammad Faiz. This policy may be updated as the app evolves.</footer>
+</div>
+</body>
+</html>
